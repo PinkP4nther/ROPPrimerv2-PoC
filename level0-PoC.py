@@ -19,7 +19,7 @@ import struct
 # shellcode address in mapped segment
 # My machine: 0xb7ffa041
 # ROPPrimer machine: 0xb7ffd041
-SHELLCODE = #0xb7ffd041
+SHELLCODE = 0xb7ffd041
 # mapped memory segment start
 # My machine: 0xb7ffa000
 # ROPPrimer machine: 0xb7ffd000
